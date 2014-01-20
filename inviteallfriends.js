@@ -1,0 +1,1 @@
+javascript:var x=document.getElementsByTagName("input");for(var i=0;i<x.length;i++) {if (x[i].type == 'checkbox') {x[i].click();}}; alert('Done, all your friends have been selected');
