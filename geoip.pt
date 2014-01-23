@@ -1,0 +1,16 @@
+import pygeoip
+
+
+# Load the database once and store it globally in interpreter memory.
+GEOIP = pygeoip.Database('GeoIP.dat')
+
+
+class LookupHandler(webapp.RequestHandler):
+    def get(self):
+        info = GEOIP.lookup(self.request.remote_addr)
+        if not info.country:
+            msg = 'Could not locate country for ' + self.request.remote_addr
+        else:
+            msg = 'Country for %s is %s' % (self.request.remote_addr, info.country)
+
+        self.response.out.write(msg)
