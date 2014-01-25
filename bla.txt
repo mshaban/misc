@@ -1,0 +1,105 @@
+<a href="http://www.guc.edu.eg" target="_blank">
+<img border="0" height="66px" src="../Media/Images/General/logo.png.ashx" width="189px"/></a>
+<a class="label" href="#" id="login_link" onclick="Effect.toggle('login_boxes','slide',{duration:0.5}); return false;">
+<img src="/Media/Icons/key_go.png.ashx" style="border-style: none; vertical-align: middle; padding-right: 5px;">Login</img></a>
+<a class="main" href="../">Home</a>
+<a class="main" id="aboutMETLink" onmouseout="deActivateAboutMETTab('academicsSubMenu')" onmouseover="activateAboutMETTab('academicsSubMenu')">About MET</a>
+<a href="../About/Programs.aspx">Programs</a>
+<a href="../About/Degrees.aspx">Degrees</a>
+<a href="../People/">Our People</a>
+<a href="http://www.guc.edu.eg/Admission/en/UnderGrad/UnderGrad.aspx" target="_blank">Admission</a>
+<a class="main" id="academicsLink">Academics</a>
+<a href="../Courses/Undergrad.aspx">Undergraduate Courses </a>
+<a href="../Courses/Grad.aspx">Graduate Courses</a>
+<a href="../Courses/">Course Catalogue</a>
+<a href="http://rr.g-beehive.com/" target="_blank">Research</a>
+<a class="main" id="extrasLink" onmouseout="deActivateExtrasTab('academicsSubMenu')" onmouseover="activateExtrasTab('academicsSubMenu')">Extras</a>
+<a href="../Activities/">Activities</a>
+<a href="../OnlineTutorials/">Online Tutorials</a>
+<a href="#">Staff Blog</a>
+<a href="#">Showcase</a>
+<a href="../Forum/">Forum</a>
+<a class="main" id="agendaLink" onmouseout="deActivateAgendaTab('academicsSubMenu')" onmouseover="activateAgendaTab('academicsSubMenu')">Agenda</a>
+<a href="../Agenda/Announcements.aspx">Announcements</a>
+<a href="../Agenda/">Calendar</a>
+<a href="../About/Policies.aspx">Policies</a>
+<a href="javascript:__doPostBack('ctl00$AcademicsMasterContent$calendarLinkBtn','')" id="ctl00_AcademicsMasterContent_calendarLinkBtn">Calendar</a>
+<a href="javascript:__doPostBack('ctl00$AcademicsMasterContent$fileTypeLinkBtn','')" id="ctl00_AcademicsMasterContent_fileTypeLinkBtn">File Type</a>
+<a href="javascript:__doPostBack('ctl00$AcademicsMasterContent$postingDateLinkBtn','')" id="ctl00_AcademicsMasterContent_postingDateLinkBtn">Posting Date</a>
+<a href="../Download.ashx?id=12560&amp;file=Lecture1_12560.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl00_materialRepeater_ctl00_materialDataLink">Lecture 1</a>
+<a href="../Download.ashx?id=12568&amp;file=Lecture2_12568.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl00_materialRepeater_ctl01_materialDataLink">Lecture 2</a>
+<a href="../Download.ashx?id=12569&amp;file=Assign1_12569.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl00_materialRepeater_ctl02_materialDataLink">Assignment 1</a>
+<a href="../Download.ashx?id=12700&amp;file=Assign1 Solution_12700.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl00_materialRepeater_ctl03_materialDataLink">Assignment 1 Solution</a>
+<a href="../Download.ashx?id=12623&amp;file=Lecture3_12623.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl01_materialRepeater_ctl00_materialDataLink">Lecture 3</a>
+<a href="../Download.ashx?id=12650&amp;file=Lecture4_12650.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl01_materialRepeater_ctl01_materialDataLink">Lecture 4</a>
+<a href="../Download.ashx?id=12722&amp;file=Assign2_12722.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl01_materialRepeater_ctl02_materialDataLink">Assignment 2</a>
+<a href="../Download.ashx?id=12769&amp;file=Assign2 Solution_12769.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl01_materialRepeater_ctl03_materialDataLink">Assignment 2 Solution</a>
+<a href="../Download.ashx?id=12716&amp;file=Lecture5_12716.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl02_materialRepeater_ctl00_materialDataLink">Lecture 5</a>
+<a href="../Download.ashx?id=12742&amp;file=Assign3_12742.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl02_materialRepeater_ctl01_materialDataLink">Assignment 3</a>
+<a href="../Download.ashx?id=12811&amp;file=Assign3Solution_12811.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl02_materialRepeater_ctl02_materialDataLink">Assignment 3 Solution</a>
+<a href="../Download.ashx?id=12759&amp;file=Lecture6_12759.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl03_materialRepeater_ctl00_materialDataLink">Lecture 6</a>
+<a href="../Download.ashx?id=12813&amp;file=Assign4_12813.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl03_materialRepeater_ctl01_materialDataLink">Assignment 4</a>
+<a href="../Download.ashx?id=12895&amp;file=Assign4Solution_12895.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl03_materialRepeater_ctl02_materialDataLink">Assignment 4 Solution</a>
+<a href="../Download.ashx?id=12849&amp;file=Lecture7_12849.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl04_materialRepeater_ctl00_materialDataLink">Lecture 7</a>
+<a href="../Download.ashx?id=12909&amp;file=Assign5_12909.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl04_materialRepeater_ctl01_materialDataLink">Assignment 5</a>
+<a href="../Download.ashx?id=13141&amp;file=Assign5Solution_13141.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl04_materialRepeater_ctl02_materialDataLink">Assignment 5 Solution</a>
+<a href="../Download.ashx?id=12969&amp;file=Lecture8_12969.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl05_materialRepeater_ctl00_materialDataLink">Lecture 8</a>
+<a href="../Download.ashx?id=13063&amp;file=Assign6_13063.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl05_materialRepeater_ctl01_materialDataLink">Assignment 6</a>
+<a href="../Download.ashx?id=13103&amp;file=Lecture9_13103.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl06_materialRepeater_ctl00_materialDataLink">Lecture 9</a>
+<a href="../Download.ashx?id=13112&amp;file=Lecture10_13112.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl06_materialRepeater_ctl01_materialDataLink">Lecture 10</a>
+<a href="../Download.ashx?id=13221&amp;file=Assign6Solution_13221.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl06_materialRepeater_ctl02_materialDataLink">Assignment 6 Solution</a>
+<a href="../Download.ashx?id=13387&amp;file=Solution-13_13387.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl07_materialRepeater_ctl00_materialDataLink">Midterm Solution</a>
+<a href="../Download.ashx?id=13235&amp;file=Assign7_13235.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl08_materialRepeater_ctl00_materialDataLink">Assignment 7</a>
+<a href="../Download.ashx?id=13292&amp;file=Lecture12_13292.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl08_materialRepeater_ctl01_materialDataLink">Lecture 12</a>
+<a href="../Download.ashx?id=13299&amp;file=Lecture11_13299.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl08_materialRepeater_ctl02_materialDataLink">Lecture 11</a>
+<a href="../Download.ashx?id=13305&amp;file=Assign7Solution_13305.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl08_materialRepeater_ctl03_materialDataLink">Assignment 7 Solution</a>
+<a href="../Download.ashx?id=13316&amp;file=Assign8_13316.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl09_materialRepeater_ctl00_materialDataLink">Assignment 8</a>
+<a href="../Download.ashx?id=13351&amp;file=Lecture13_13351.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl09_materialRepeater_ctl01_materialDataLink">Lecture 13</a>
+<a href="../Download.ashx?id=13383&amp;file=Lecture14_13383.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl09_materialRepeater_ctl02_materialDataLink">Lecture 14</a>
+<a href="../Download.ashx?id=13392&amp;file=Assign8Solution_13392.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl09_materialRepeater_ctl03_materialDataLink">Assignment 8 Solution</a>
+<a href="../Download.ashx?id=13415&amp;file=Assign9_13415.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl10_materialRepeater_ctl00_materialDataLink">Assignment 9</a>
+<a href="../Download.ashx?id=13463&amp;file=Lecture15_13463.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl10_materialRepeater_ctl01_materialDataLink">Lecture 15</a>
+<a href="../Download.ashx?id=13520&amp;file=Assign9Solution_13520.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl10_materialRepeater_ctl02_materialDataLink">Assignment 9 Solution</a>
+<a href="../Download.ashx?id=13524&amp;file=Assign10_13524.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl11_materialRepeater_ctl00_materialDataLink">Assignment 10</a>
+<a href="../Download.ashx?id=13574&amp;file=Lecture16_13574.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl11_materialRepeater_ctl01_materialDataLink">Lecture 16</a>
+<a href="../Download.ashx?id=13641&amp;file=Lecture17_13641.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl11_materialRepeater_ctl02_materialDataLink">Lecture 17</a>
+<a href="../Download.ashx?id=13642&amp;file=Assign10Solution_13642.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl11_materialRepeater_ctl03_materialDataLink">Assignment 10 Solution</a>
+<a href="../Download.ashx?id=13645&amp;file=Assign11_13645.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl12_materialRepeater_ctl00_materialDataLink">Assignment 11</a>
+<a href="../Download.ashx?id=13703&amp;file=Lecture18_13703.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl12_materialRepeater_ctl01_materialDataLink">Lecture 18</a>
+<a href="../Download.ashx?id=13755&amp;file=Assign11Solution_13755.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl12_materialRepeater_ctl02_materialDataLink">Assignment 11 Solution</a>
+<a href="../Download.ashx?id=13786&amp;file=Lecture19_13786.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl12_materialRepeater_ctl03_materialDataLink">Lecture 19</a>
+<a href="../Download.ashx?id=13747&amp;file=Assign12_13747.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl13_materialRepeater_ctl00_materialDataLink">Assignment 12</a>
+<a href="../Download.ashx?id=13842&amp;file=Assign12Solution_13842.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl13_materialRepeater_ctl01_materialDataLink">Assignment 12 Solution</a>
+<a href="../Download.ashx?id=13843&amp;file=Lecture20_13843.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl13_materialRepeater_ctl02_materialDataLink">Lecture 20</a>
+<a href="../Download.ashx?id=13844&amp;file=Lecture21_13844.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl13_materialRepeater_ctl03_materialDataLink">Lecture 21</a>
+<a href="../Download.ashx?id=13845&amp;file=Assign13_13845.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl14_materialRepeater_ctl00_materialDataLink">Assignment 13</a>
+<a href="../Download.ashx?id=13899&amp;file=Assign13Solution_13899.pdf" id="ctl00_AcademicsMasterContent_weeksRepeater_ctl14_materialRepeater_ctl01_materialDataLink">Assignment 13 Solution</a>
+<a href="CourseEdition.aspx?crsEdId=431" id="ctl00_AcademicsMasterContent_SideMenuControl_courseEditionHomeLink">
+<img src="../Media/Icons/house.png.ashx"/>
+                Home</a>
+<a href="Info.aspx?crsEdId=431" id="ctl00_AcademicsMasterContent_SideMenuControl_courseEditionInformationLink">
+<img src="../Media/Icons/information.png.ashx"/>
+                Information</a>
+<a href="http://met.guc.edu.eg/Courses/Material.aspx?crsEdId=431#" id="ctl00_AcademicsMasterContent_SideMenuControl_courseEditionMaterialLink" style="background:#19589B;color:#FFF;">
+<img src="../Media/Icons/book_open.png.ashx"/>
+                Material</a>
+<a href="Calendar.aspx?crsEdId=431" id="ctl00_AcademicsMasterContent_SideMenuControl_courseEditionCalendarLink">
+<img src="../Media/Icons/calendar.png.ashx"/>
+                Calendar</a>
+<a href="Policies.aspx?crsEdId=431" id="ctl00_AcademicsMasterContent_SideMenuControl_coursePoliciesLink">
+<img src="../Media/Icons/error.png.ashx"/>
+                Policies</a>
+<a href="Updates.aspx?crsEdId=431" id="ctl00_AcademicsMasterContent_SideMenuControl_courseAnnouncementsLink">
+<img src="../Media/Icons/feed.png.ashx"/>
+                Course Updates</a>
+<a href="Links.aspx?crsEdId=431" id="ctl00_AcademicsMasterContent_SideMenuControl_courseUsefulLinksLink">
+<img src="../Media/Icons/world_go.png.ashx"/>
+                Resources</a>
+<a href="../Student/SubmitAssignments.aspx?CrsEd=431" id="ctl00_AcademicsMasterContent_SideMenuControl_courseSubmissionLink">
+<img src="../Media/Icons/clock.png.ashx"/>
+                Submission</a>
+<a href="../Feeds/RSS.aspx">
+<img alt="RSS" src="../Media/Icons/rss.png.ashx" style="border-style: none; position: relative;
+                        top: 3px; padding-right: 2px;"/><b>RSS</b> Feeds</a>
+<a href="../Credits/robusta.aspx">
+                            Credits</a>

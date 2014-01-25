@@ -1,0 +1,595 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="ctl00_Head1">
+    <!--[if gte IE 7 ]>
+    <!-->
+    <link type="text/css" href="../Media/ResourceHandler.ashx?v=1&amp;fileSet=academics_master_css&amp;type=text/css" rel="Stylesheet" /><link type="text/css" href="../Media/Stylesheets/Components/gliding_message.css" rel="Stylesheet" /><link rel="SHORTCUT ICON" href="../Media/images/favicon.ico" type="image/x-icon" />
+    <!-->
+    <![endif]-->
+    <!--[if lte IE 6]>
+     <link type="text/css" href="../Media/Stylesheets/GlidingMessageIE.css" rel="Stylesheet" />
+    <![endif]-->
+
+    <script type="text/javascript" src="../Media/ResourceHandler.ashx?v=1&fileSet=masterpage_script&type=application/x-javascript"></script>
+
+<title>
+    CSEN 502: Theory of Computation - Faculty of Media Engineering and Technology
+</title></head>
+<body>
+    <form name="aspnetForm" method="post" action="CourseEdition.aspx?crsEdId=431" id="aspnetForm">
+<div>
+<input type="hidden" name="ctl00_ScriptManager1_HiddenField" id="ctl00_ScriptManager1_HiddenField" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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b3IgSGF5dGhlbSBJc21haWxkZAIHDw8WAh8ABQogaW4gQzcuMzA3ZGQCCQ9kFhACAQ8WBB4EaHJlZgU9aHR0cDovL21ldC5ndWMuZWR1LmVnL0NvdXJzZXMvQ291cnNlRWRpdGlvbi5hc3B4P2Nyc0VkSWQ9NDMxIx8DBR5iYWNrZ3JvdW5kOiMxOTU4OUI7Y29sb3I6I0ZGRjtkAgMPFgIfBQUgLi4vQ291cnNlcy9JbmZvLmFzcHg/Y3JzRWRJZD00MzFkAgUPFgIfBQUkLi4vQ291cnNlcy9NYXRlcmlhbC5hc3B4P2Nyc0VkSWQ9NDMxZAIHDxYCHwUFJC4uL0NvdXJzZXMvQ2FsZW5kYXIuYXNweD9jcnNFZElkPTQzMWQCCQ8WAh8FBSQuLi9Db3Vyc2VzL1BvbGljaWVzLmFzcHg/Y3JzRWRJZD00MzFkAgsPFgIfBQUjLi4vQ291cnNlcy9VcGRhdGVzLmFzcHg/Y3JzRWRJZD00MzFkAg0PFgIfBQUhLi4vQ291cnNlcy9MaW5rcy5hc3B4P2Nyc0VkSWQ9NDMxZAIPDxYCHwUFKy4uL1N0dWRlbnQvU3VibWl0QXNzaWdubWVudHMuYXNweD9DcnNFZD00MzFkGAEFKWN0bDAwJEdsaWRpbmdUb29sc01lbnVDb250cm9sMSRNdWx0aVZpZXcxDw9kAgFkEEokOqEaZE/zpWDBIXuRJYVHsQo=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=s8Deokab-NP30ey-h48s0o-qdpLwDAoZ7Ob3SAnMJaDHYDArFsdWKIv2p1vkT2v7pZA1OSpXPTdpVXHUM_EVpBgm_nQ1&amp;t=635084105457020723" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=BseWT4nXy6r31YoRl3wWNfJmzNkdX71QvSwUdJCKtFfJxwbeT1LK1YP0n1ITAH5NDm_GO_RFDm14g2YAHM_EmqQB75Xd1MBKtDXckVheuOIEUYw9rqLRacCItox2xz4DXo-lyIKouCg56XDrLHl9gN3UW7c1&amp;t=634490271570780838" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=ce5obEMPzgMXl8v6G1CSy154xW-yfJajL2qtNUFz1GR_5Ri3SLQhrHdTM4-BnjMGwVg6I7SgtPFIRxxi2XmHqy-lplcHmsdh7oVtOLTJ6x8U6Cn5XEQ6cPqiB4uf2oAAfdMpxJkDrxbZ-P4ZmF9cXJ7qX61RyT8Wx4fq1EGlutPNweth0&amp;t=634490271570780838" type="text/javascript"></script>
+<script src="/Courses/CourseEdition.aspx?_TSM_HiddenField_=ctl00_ScriptManager1_HiddenField&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d1.0.10920.32880%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen-US%3a816bbca1-959d-46fd-928f-6347d6f2c9c3%3ae2e86ef9%3a9ea3f0e2%3ac7c04611%3a1df13a87%3acd120801%3ac4c00916%3a3858419b%3a96741c43%3a38ec41c0" type="text/javascript"></script>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', document.getElementById('aspnetForm'));
+Sys.WebForms.PageRequestManager.getInstance()._updateControls(['fctl00$AcademicsMasterContent$statsUpdatePanel'], [], [], 90);
+//]]>
+</script>
+
+        <div id="container">
+            <div id="headerAndMenu">
+                <div class="logoDiv">
+                    <a href="http://www.guc.edu.eg" target="_blank">
+                        <img src="../Media/Images/General/logo.png.ashx" width="189px" height="66px" border="0" /></a>
+                </div>
+                <div id="userPanel">
+                    
+                    
+        <div class="tools-menu-header">
+            <a id="userNameLbl" class="label" onclick="Effect.toggle('tools-menu-div','slide',{duration: 0.5}); return false;">
+                <img src="/Media/Icons/user.png.ashx" /><span id="ctl00_GlidingToolsMenuControl1_studentUserName">mohamed shaban</span></a>
+            <span style="padding: 0px 5px 0px 5px; color: #ccc;">|</span>
+            
+            <a id="ctl00_GlidingToolsMenuControl1_HyperLink1" class="label" href="../Logout.aspx">Logout</a>
+        </div>
+        <div class="tools-menu-body" id="tools-menu-div" style="display: none;">
+            <div id="menu_glider">
+                <div class="scroller">
+                    <div class="content">
+                        <div class="section" id="main_menu">
+                            <ul class="tools-menu-ul">
+                                
+                                <li><a href="/Student/Dashboard.aspx">
+                                    <img src="/Media/Icons/comments.png.ashx" />dashboard</a></li>
+                                <li class="tools-menu-forward"><a href="#courses_menu" class="controls">
+                                    <img src="/Media/Icons/heart.png.ashx" />my courses</a></li>
+                                <li><a href="/Student/ManageCourseSubscriptions.aspx">
+                                    <img src="/Media/Icons/cart.png.ashx" />course subscriptions</a></li>
+                                <li><a href="/Student/ChangePassword.aspx">
+                                    <img src="/Media/Icons/key.png.ashx" />change password</a></li>
+                                <li id="ctl00_GlidingToolsMenuControl1_StudentJTAPLink" class="tools-menu-forward"><a href="#jtap_menu"
+                                    class="controls">
+                                    <img src="/Media/Icons/group.png.ashx" />JTAP</a></li>
+                            </ul>
+                        </div>
+                        <div class="section" id="jtap_menu">
+                            <ul class="tools-menu-ul">
+                                <li class="tools-menu-back"><a href="#main_menu" class="controls">back</a></li>
+                                
+                                
+                                
+                                <li><a href="/JTAP/evaluate.aspx">evaluate JTAP</a></li>
+                            </ul>
+                        </div>
+                        <div class="section" id="courses_menu">
+                            <ul class="tools-menu-ul">
+                                <li class="tools-menu-back"><a href="#main_menu" class="controls">back</a></li>
+                                
+                            </ul>
+                            <div id="ctl00_GlidingToolsMenuControl1_no_courses_div" class="notice" style="display:block;">
+                                You currently have no courses.
+                                <br />
+                                Would you like to <a href="/Student/ManageCourseSubscriptions.aspx">subscribe?</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+<script type="text/javascript" charset="utf-8">
+        var menu_glider = new Glider('menu_glider', {duration:0.4});
+</script>
+
+
+                    
+                </div>
+                <div id="menu">
+                    <ul id="globalnav">
+                        <li id="home"><a class="main" href="../">Home</a> </li>
+                        <li id="aboutMET"><a id="aboutMETLink" class="main" onmouseover="activateAboutMETTab('academicsSubMenu')"
+                            onmouseout="deActivateAboutMETTab('academicsSubMenu')">About MET</a>
+                            <div id="aboutMETSubMenu" onmouseover="activateAboutMETTab('academicsSubMenu')" onmouseout="deActivateAboutMETTab('academicsSubMenu')">
+                                <ul class="innerList">
+                                    <li id="programs"><a href="../About/Programs.aspx">Programs</a> </li>
+                                    <li id="degrees"><a href="../About/Degrees.aspx">Degrees</a> </li>
+                                    <li id="ourPeople"><a href="../People/">Our People</a></li>
+                                  <li id="admission"><a target ="_blank" href="http://www.guc.edu.eg/Admission/en/UnderGrad/UnderGrad.aspx">Admission</a> </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li id="academics"><a id="academicsLink" class="main">Academics</a>
+                            <div id="academicsSubMenu">
+                                <ul class="innerList">
+                                    <li id="underGraduate"><a href="../Courses/Undergrad.aspx">Undergraduate Courses </a>
+                                    </li>
+                                    <li id="graduate"><a href="../Courses/Grad.aspx">Graduate Courses</a> </li>
+                                    <li id="courseCatalogue"><a href="../Courses/">Course Catalogue</a> </li>
+                                    <li id="research"><a href="http://rr.g-beehive.com/" target="_blank">Research</a> </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li id="extras"><a id="extrasLink" class="main" onmouseover="activateExtrasTab('academicsSubMenu')"
+                            onmouseout="deActivateExtrasTab('academicsSubMenu')">Extras</a>
+                            <div id="extrasSubMenu" onmouseover="activateExtrasTab('academicsSubMenu')" onmouseout="deActivateExtrasTab('academicsSubMenu')">
+                                <ul class="innerList">
+                                   <li id="activities"><a href="../Activities/">Activities</a> </li>
+                                    <li id="onlineTutorials"><a href="../OnlineTutorials/">Online Tutorials</a>
+                                    </li>
+                                    <li id="staffBlog"><a href="#">Staff Blog</a> </li>
+                                    <li id="showCase"><a href="#">Showcase</a> </li>
+                                    <li id="forum"><a href="../Forum/">Forum</a> </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li id="agenda"><a id="agendaLink" class="main" onmouseover="activateAgendaTab('academicsSubMenu')"
+                            onmouseout="deActivateAgendaTab('academicsSubMenu')">Agenda</a>
+                            <div id="agendaSubMenu" onmouseover="activateAgendaTab('academicsSubMenu')" onmouseout="deActivateAgendaTab('academicsSubMenu')">
+                                <ul class="innerList">
+                                      <li id="Li7"><a href="../Agenda/Announcements.aspx">Announcements</a></li>
+                                    <li id="Li8"><a href="../Agenda/">Calendar</a></li>
+                                    <li id="Li1"><a href="../About/Policies.aspx">Policies</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div id="contentHolderDiv">
+                
+    <div class="pageContent">
+        <div class="mainDataContainer">
+            <span style="">
+                <span id="ctl00_AcademicsMasterContent_courseCodeLbl" class="coursesPageTitle">CSEN 502</span>
+            </span><span style="">
+                <span id="ctl00_AcademicsMasterContent_courseNameLbl" class="coursesPageTitle">Theory of Computation</span></span>
+            
+            <div class="centerBlock">
+                <div class="upperNormalContainer">
+                </div>
+                <div id="ctl00_AcademicsMasterContent_courseAnnouncementsDiv" class="middleExpandableContainer">
+                    <div class="middleExpandableContainerContent">
+                        
+                        
+                        <!-- group end -->
+                        
+                        <div id="ctl00_AcademicsMasterContent_materialGroup" class="group smallgroup">
+                            <h2 class="groupTitle">
+                                Latest Material</h2>
+                            <div class="unitContainer">
+                                <!-- Repeat Me! -->
+                                <div class="unitHeader">
+                                    <h3>
+                                    </h3>
+                                    <div class="">
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div class="unitDetails">
+                                    <ul class="materialList">
+                                        
+                                                <input type="hidden" name="ctl00$AcademicsMasterContent$latestMaterialRepeater$ctl00$materialIDHF" id="ctl00_AcademicsMasterContent_latestMaterialRepeater_ctl00_materialIDHF" value="13786" />
+                                                <li>
+                                                    <a id="ctl00_AcademicsMasterContent_latestMaterialRepeater_ctl00_materialDataLink" href="../Download.ashx?id=13786&amp;file=Lecture19_13786.pdf">Lecture 19</a>
+                                                    <span id="ctl00_AcademicsMasterContent_latestMaterialRepeater_ctl00_postingDateLbl">Posted on: 31st of December</span>
+                                                </li>
+                                            
+                                                <input type="hidden" name="ctl00$AcademicsMasterContent$latestMaterialRepeater$ctl01$materialIDHF" id="ctl00_AcademicsMasterContent_latestMaterialRepeater_ctl01_materialIDHF" value="13845" />
+                                                <li>
+                                                    <a id="ctl00_AcademicsMasterContent_latestMaterialRepeater_ctl01_materialDataLink" href="../Download.ashx?id=13845&amp;file=Assign13_13845.pdf">Assignment 13</a>
+                                                    <span id="ctl00_AcademicsMasterContent_latestMaterialRepeater_ctl01_postingDateLbl">Posted on: 31st of December</span>
+                                                </li>
+                                            
+                                                <input type="hidden" name="ctl00$AcademicsMasterContent$latestMaterialRepeater$ctl02$materialIDHF" id="ctl00_AcademicsMasterContent_latestMaterialRepeater_ctl02_materialIDHF" value="13899" />
+                                                <li>
+                                                    <a id="ctl00_AcademicsMasterContent_latestMaterialRepeater_ctl02_materialDataLink" href="../Download.ashx?id=13899&amp;file=Assign13Solution_13899.pdf">Assignment 13 Solution</a>
+                                                    <span id="ctl00_AcademicsMasterContent_latestMaterialRepeater_ctl02_postingDateLbl">Posted on: 5th of January</span>
+                                                </li>
+                                            
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="ctl00_AcademicsMasterContent_staffGroup" class="group smallgroup">
+                            <h2 class="groupTitle">
+                                Course Staff</h2>
+                            
+                                    <div class="unitContainer">
+                                        <!-- Repeat Me! -->
+                                        <div class="unitHeader">
+                                            <h3>
+                                                <span id="ctl00_AcademicsMasterContent_facultyPositionsRepeater_ctl00_Label1">Lecturer</span></h3>
+                                            <div class="">
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                        <div class="unitDetails">
+                                            <input type="hidden" name="ctl00$AcademicsMasterContent$facultyPositionsRepeater$ctl00$facPosIdHF" id="ctl00_AcademicsMasterContent_facultyPositionsRepeater_ctl00_facPosIdHF" value="1" />
+                                            <input type="hidden" name="ctl00$AcademicsMasterContent$facultyPositionsRepeater$ctl00$crsEdIdHF" id="ctl00_AcademicsMasterContent_facultyPositionsRepeater_ctl00_crsEdIdHF" value="431" />
+                                            <ul class="materialList">
+                                                
+                                                        <li>
+                                                            <a id="ctl00_AcademicsMasterContent_facultyPositionsRepeater_ctl00_staffMembersRepeater_ctl00_HyperLink1" href="../People/Profile.aspx?facId=3">Haythem Ismail</a></li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="unitContainer">
+                                        <!-- Repeat Me! -->
+                                        <div class="unitHeader">
+                                            <h3>
+                                                <span id="ctl00_AcademicsMasterContent_facultyPositionsRepeater_ctl01_Label1">Teaching assistant</span></h3>
+                                            <div class="">
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                        <div class="unitDetails">
+                                            <input type="hidden" name="ctl00$AcademicsMasterContent$facultyPositionsRepeater$ctl01$facPosIdHF" id="ctl00_AcademicsMasterContent_facultyPositionsRepeater_ctl01_facPosIdHF" value="2" />
+                                            <input type="hidden" name="ctl00$AcademicsMasterContent$facultyPositionsRepeater$ctl01$crsEdIdHF" id="ctl00_AcademicsMasterContent_facultyPositionsRepeater_ctl01_crsEdIdHF" value="431" />
+                                            <ul class="materialList">
+                                                
+                                                        <li>
+                                                            <a id="ctl00_AcademicsMasterContent_facultyPositionsRepeater_ctl01_staffMembersRepeater_ctl00_HyperLink1" href="../People/Profile.aspx?facId=3057">Ghada Fakhry</a></li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                        </div>
+                        <div id="ctl00_AcademicsMasterContent_meetingsGroup" class="group smallgroup">
+                            <h2 class="groupTitle">
+                                Course Meetings</h2>
+                            
+                                    <div class="unitContainer">
+                                        <!-- Repeat Me! -->
+                                        <div class="unitHeader">
+                                            <h3>
+                                                <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl00_Label1">Lecture</span></h3>
+                                            <div class="">
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                        <div class="unitDetails">
+                                            <h3>
+                                            </h3>
+                                            <ul class="materialList">
+                                                <input type="hidden" name="ctl00$AcademicsMasterContent$courseMeetingsTypesRepeater$ctl00$crsMeetingTypeIdHF" id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl00_crsMeetingTypeIdHF" value="1" />
+                                                <input type="hidden" name="ctl00$AcademicsMasterContent$courseMeetingsTypesRepeater$ctl00$crsEdIdHF" id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl00_crsEdIdHF" value="431" />
+                                                
+                                                        
+                                                        <li>On <span>
+                                                            <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl00_courseMeetingsRepeater_ctl00_Label2">Saturday</span>
+                                                            <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl00_courseMeetingsRepeater_ctl00_meetingSlotLbl">2nd</span>
+                                                            slot
+                                                            <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl00_courseMeetingsRepeater_ctl00_groupLbl">, for All</span>
+                                                            <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl00_courseMeetingsRepeater_ctl00_locationLbl"> in H10</span></span></li>
+                                                        
+                                                    
+                                                        
+                                                        <li>On <span>
+                                                            <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl00_courseMeetingsRepeater_ctl01_Label2">Monday</span>
+                                                            <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl00_courseMeetingsRepeater_ctl01_meetingSlotLbl">2nd</span>
+                                                            slot
+                                                            <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl00_courseMeetingsRepeater_ctl01_groupLbl">, for All</span>
+                                                            <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl00_courseMeetingsRepeater_ctl01_locationLbl"> in H1</span></span></li>
+                                                        
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="unitContainer">
+                                        <!-- Repeat Me! -->
+                                        <div class="unitHeader">
+                                            <h3>
+                                                <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl01_Label1">Tutorial</span></h3>
+                                            <div class="">
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                        <div class="unitDetails">
+                                            <h3>
+                                            </h3>
+                                            <ul class="materialList">
+                                                <input type="hidden" name="ctl00$AcademicsMasterContent$courseMeetingsTypesRepeater$ctl01$crsMeetingTypeIdHF" id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl01_crsMeetingTypeIdHF" value="2" />
+                                                <input type="hidden" name="ctl00$AcademicsMasterContent$courseMeetingsTypesRepeater$ctl01$crsEdIdHF" id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl01_crsEdIdHF" value="431" />
+                                                
+                                                        
+                                                        <li>On <span>
+                                                            <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl01_courseMeetingsRepeater_ctl00_Label2">Saturday</span>
+                                                            <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl01_courseMeetingsRepeater_ctl00_meetingSlotLbl">3rd</span>
+                                                            slot
+                                                            <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl01_courseMeetingsRepeater_ctl00_groupLbl">, for T13</span>
+                                                            <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl01_courseMeetingsRepeater_ctl00_locationLbl"> in C2.210</span></span></li>
+                                                        
+                                                    
+                                                        
+                                                        <li>On <span>
+                                                            <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl01_courseMeetingsRepeater_ctl01_Label2">Saturday</span>
+                                                            <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl01_courseMeetingsRepeater_ctl01_meetingSlotLbl">4th</span>
+                                                            slot
+                                                            <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl01_courseMeetingsRepeater_ctl01_groupLbl">, for T10</span>
+                                                            <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl01_courseMeetingsRepeater_ctl01_locationLbl"> in C2.301</span></span></li>
+                                                        
+                                                    
+                                                        
+                                                        <li>On <span>
+                                                            <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl01_courseMeetingsRepeater_ctl02_Label2">Sunday</span>
+                                                            <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl01_courseMeetingsRepeater_ctl02_meetingSlotLbl">2nd</span>
+                                                            slot
+                                                            <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl01_courseMeetingsRepeater_ctl02_groupLbl">, for T12</span>
+                                                            <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl01_courseMeetingsRepeater_ctl02_locationLbl"> in C6.204</span></span></li>
+                                                        
+                                                    
+                                                        
+                                                        <li>On <span>
+                                                            <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl01_courseMeetingsRepeater_ctl03_Label2">Monday</span>
+                                                            <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl01_courseMeetingsRepeater_ctl03_meetingSlotLbl">4th</span>
+                                                            slot
+                                                            <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl01_courseMeetingsRepeater_ctl03_groupLbl">, for T11</span>
+                                                            <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl01_courseMeetingsRepeater_ctl03_locationLbl"> in D4.309</span></span></li>
+                                                        
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="unitContainer">
+                                        <!-- Repeat Me! -->
+                                        <div class="unitHeader">
+                                            <h3>
+                                                <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl02_Label1">Lab</span></h3>
+                                            <div class="">
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                        <div class="unitDetails">
+                                            <h3>
+                                            </h3>
+                                            <ul class="materialList">
+                                                <input type="hidden" name="ctl00$AcademicsMasterContent$courseMeetingsTypesRepeater$ctl02$crsMeetingTypeIdHF" id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl02_crsMeetingTypeIdHF" value="3" />
+                                                <input type="hidden" name="ctl00$AcademicsMasterContent$courseMeetingsTypesRepeater$ctl02$crsEdIdHF" id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl02_crsEdIdHF" value="431" />
+                                                
+                                                        
+                                                        <li>On <span>
+                                                            <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl02_courseMeetingsRepeater_ctl00_Label2">Saturday</span>
+                                                            <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl02_courseMeetingsRepeater_ctl00_meetingSlotLbl">1st</span>
+                                                            slot
+                                                            <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl02_courseMeetingsRepeater_ctl00_groupLbl"></span>
+                                                            <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl02_courseMeetingsRepeater_ctl00_locationLbl"></span></span></li>
+                                                        
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="unitContainer">
+                                        <!-- Repeat Me! -->
+                                        <div class="unitHeader">
+                                            <h3>
+                                                <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl03_Label1">Office Hours</span></h3>
+                                            <div class="">
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                        <div class="unitDetails">
+                                            <h3>
+                                            </h3>
+                                            <ul class="materialList">
+                                                <input type="hidden" name="ctl00$AcademicsMasterContent$courseMeetingsTypesRepeater$ctl03$crsMeetingTypeIdHF" id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl03_crsMeetingTypeIdHF" value="7" />
+                                                <input type="hidden" name="ctl00$AcademicsMasterContent$courseMeetingsTypesRepeater$ctl03$crsEdIdHF" id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl03_crsEdIdHF" value="431" />
+                                                
+                                                        
+                                                        <li>On <span>
+                                                            <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl03_courseMeetingsRepeater_ctl00_Label2">Monday</span>
+                                                            <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl03_courseMeetingsRepeater_ctl00_meetingSlotLbl">5th</span>
+                                                            slot
+                                                            <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl03_courseMeetingsRepeater_ctl00_groupLbl">, for Haythem Ismail</span>
+                                                            <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl03_courseMeetingsRepeater_ctl00_locationLbl"> in C7.307</span></span></li>
+                                                        
+                                                    
+                                                        
+                                                        <li>On <span>
+                                                            <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl03_courseMeetingsRepeater_ctl01_Label2">Thursday</span>
+                                                            <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl03_courseMeetingsRepeater_ctl01_meetingSlotLbl">4th</span>
+                                                            slot
+                                                            <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl03_courseMeetingsRepeater_ctl01_groupLbl">, for Haythem Ismail</span>
+                                                            <span id="ctl00_AcademicsMasterContent_courseMeetingsTypesRepeater_ctl03_courseMeetingsRepeater_ctl01_locationLbl"> in C7.307</span></span></li>
+                                                        
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                        </div>
+                        <!-- group end -->
+                    </div>
+                </div>
+                <div class="lowerExpandableContainer">
+                </div>
+            </div>
+        </div>
+        <div class="sideDiv">
+            
+<div class="sideBlock">
+    <div class="blueUpperSideMenu">
+    </div>
+    <div class="blueMiddleSideMenu">
+        <ul>
+            <li><a href="http://met.guc.edu.eg/Courses/CourseEdition.aspx?crsEdId=431#" id="ctl00_AcademicsMasterContent_SideMenuControl_courseEditionHomeLink" style="background:#19589B;color:#FFF;">
+                <img src="../Media/Icons/house.png.ashx" />
+                Home</a> </li>
+            <li><a href="Info.aspx?crsEdId=431" id="ctl00_AcademicsMasterContent_SideMenuControl_courseEditionInformationLink">
+                <img src="../Media/Icons/information.png.ashx" />
+                Information</a> </li>
+            <li><a href="Material.aspx?crsEdId=431" id="ctl00_AcademicsMasterContent_SideMenuControl_courseEditionMaterialLink">
+                <img src="../Media/Icons/book_open.png.ashx" />
+                Material</a> </li>
+            <li><a href="Calendar.aspx?crsEdId=431" id="ctl00_AcademicsMasterContent_SideMenuControl_courseEditionCalendarLink">
+                <img src="../Media/Icons/calendar.png.ashx" />
+                Calendar</a> </li>
+            <li><a href="Policies.aspx?crsEdId=431" id="ctl00_AcademicsMasterContent_SideMenuControl_coursePoliciesLink">
+                <img src="../Media/Icons/error.png.ashx" />
+                Policies</a> </li>
+            <li><a href="Updates.aspx?crsEdId=431" id="ctl00_AcademicsMasterContent_SideMenuControl_courseAnnouncementsLink">
+                <img src="../Media/Icons/feed.png.ashx" />
+                Course Updates</a> </li>
+            <li><a href="Links.aspx?crsEdId=431" id="ctl00_AcademicsMasterContent_SideMenuControl_courseUsefulLinksLink">
+                <img src="../Media/Icons/world_go.png.ashx" />
+                Resources</a> </li>
+            <li><a href="../Student/SubmitAssignments.aspx?CrsEd=431" id="ctl00_AcademicsMasterContent_SideMenuControl_courseSubmissionLink">
+                <img src="../Media/Icons/clock.png.ashx" />
+                Submission</a> </li>
+        </ul>
+    </div>
+    <div class="blueLowerSideMenu">
+    </div>
+</div>
+
+        </div>
+        <div id="ctl00_AcademicsMasterContent_statsUpdatePanel">
+    
+                <div id="ctl00_AcademicsMasterContent_statsPanel" class="modalPopup" style="width: 500px;
+                    display: none;">
+        
+                    <span id="ctl00_AcademicsMasterContent_statsPollControl_pollTitleLbl" class="aspLabel spacing" style="display:inline-block;width:80%;"></span>
+<div class="box">
+    <fieldset>
+        <p>
+            
+        </p>
+        <p>
+            <label style="width: 160px;">
+                Total number of votes</label>
+            <span id="ctl00_AcademicsMasterContent_statsPollControl_totalCountLbl" class="aspLabel"></span>
+        </p>
+    </fieldset>
+</div>
+
+<div style="text-align: center; padding-top: 12px; padding-bottom: 12px;">
+    <input type="button" name="ctl00$AcademicsMasterContent$statsPollControl$goBackBtn" value="Okay" onclick="javascript:__doPostBack('ctl00$AcademicsMasterContent$statsPollControl$goBackBtn','')" id="ctl00_AcademicsMasterContent_statsPollControl_goBackBtn" style="font-family:Verdana;font-size:10pt;" />
+</div>
+
+                
+    </div>
+                
+                <input type="submit" name="ctl00$AcademicsMasterContent$trickyBtn2" value="" id="ctl00_AcademicsMasterContent_trickyBtn2" style="display: none;" />
+            
+</div>
+    </div>
+
+                <img src="../Media/Images/General/spacer.gif.ashx" height="1px" />
+            </div>
+        </div>
+        <div id="endOfContainer">
+        </div>
+        <div id="footer">
+            <div id="footerlinksleft">
+                GUC©2008
+            </div>
+            <div id="footerlinksright">
+                <a href="../Feeds/RSS.aspx">
+                    <img src="../Media/Icons/rss.png.ashx" alt="RSS" style="border-style: none; position: relative;
+                        top: 3px; padding-right: 2px;" /><b>RSS</b> Feeds</a> <a href="../Credits/robusta.aspx">
+                            Credits</a>
+            </div>
+        </div>
+        
+
+<img alt="RenewSession" id="renewSession" src="/PersistSession.aspx" />
+
+<script type="text/javascript">
+window.setInterval("renewSession();", 600000);
+function renewSession()
+{document.images.renewSession.src = "/PersistSession.aspx?par=" + Math.random();}
+</script>
+
+
+        <!--
+<div class="fixed_header" onclick="Effect.toggle('beta_body','appear');">
+    <img id="ctl00_GlidingMessage1_beta_image" src="../Media/Images/General/beta_blue.png.ashx" style="border-width:0px;" />
+</div>
+<div class="fixed" id="beta_body" style="display: none;">
+    <div>
+        <p>
+            We are running a beta version!
+        </p>
+        <p>
+            If you have any comments or feedback please don't hesitate to
+            <a id="ctl00_GlidingMessage1_contactUsLink" href="../About/Feedback.aspx">contact us</a>.
+        </p>
+        <p>
+            Thank you!
+        </p>
+        <p>
+            The development team.
+        </p>
+    </div>
+</div>
+-->
+    
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.ModalPopupBehavior, {"BackgroundCssClass":"modalBackground","CancelControlID":"ctl00_AcademicsMasterContent_trickyBtn2","DropShadow":true,"PopupControlID":"ctl00_AcademicsMasterContent_statsPanel","dynamicServicePath":"/Courses/CourseEdition.aspx","id":"ctl00_AcademicsMasterContent_statsModalPopupExtender"}, null, null, $get("ctl00_AcademicsMasterContent_trickyBtn2"));
+});
+//]]>
+</script>
+</form>
+
+    <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+
+    <script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-195091-6");
+pageTracker._trackPageview();
+    </script>
+
+</body>
+</html>
